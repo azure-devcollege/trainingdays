@@ -48,7 +48,7 @@
     <v-app-bar :clipped-left="$vuetify.breakpoint.lgAndUp" app color="blue darken-3" flat dark>
       <v-toolbar-title style="width: 300px" class="ml-0 pl-4">
         <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-        <span class="hidden-sm-and-down">SCM Contacts 🕮</span>
+        <span class="hidden-sm-and-down">SCM Contacts - 🕮</span>
       </v-toolbar-title>
       <v-text-field
         v-if="$uisettings.searchEndpoint && $uisettings.searchEndpoint != ''"
